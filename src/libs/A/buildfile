@@ -1,0 +1,4 @@
+lib{A}: mxx{*} 
+{
+	bin.binless = true
+}
