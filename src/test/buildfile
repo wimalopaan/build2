@@ -1,1 +1,4 @@
+include ../libs/A/
+include ../libs/B/
+
 exe{test}: cxx{test} ../libs/A/lib{A} ../libs/B/lib{B}
