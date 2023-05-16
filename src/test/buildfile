@@ -1,4 +1,8 @@
-include ../libs/A/
-include ../libs/B/
+#include ../libs/A/
+#include ../libs/B/
 
-exe{test}: cxx{test} ../libs/A/lib{A} ../libs/B/lib{B}
+#exe{test}: cxx{test} ../libs/A/lib{A} ../libs/B/lib{B}
+
+import libs = lib{A} lib{B}
+
+exe{test}: cxx{test} $libs

@@ -1,4 +1,1 @@
-#include libs/A/
-#include libs/B/
-
-dir{.}: dir{test}
+dir{.}: dir{libs test}

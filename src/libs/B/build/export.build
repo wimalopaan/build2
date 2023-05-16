@@ -1,0 +1,6 @@
+$out_root/
+{
+  include src/libs/B/
+}
+
+export $out_root/src/libs/B/$import.target
